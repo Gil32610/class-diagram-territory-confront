@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T00:35:31.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="FoHmLXLCpFpxzYHXQQ4B" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-18T00:48:47.807Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="1wvG6Zog_NYRqCHE5jFR" version="24.4.4" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="3642" dy="2720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -237,7 +237,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KUl9j9RWkavMUiWNoTW2-25" value="TerritoryConfrontPhase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="240" width="280" height="112" as="geometry" />
+          <mxGeometry x="760" y="240" width="280" height="138" as="geometry" />
         </mxCell>
         <mxCell id="KUl9j9RWkavMUiWNoTW2-26" value="- attacker: Territory" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KUl9j9RWkavMUiWNoTW2-25">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -250,6 +250,9 @@
         </mxCell>
         <mxCell id="KUl9j9RWkavMUiWNoTW2-29" value="&lt;div&gt;+ attackTerritory(sourceArmy: int, targetArmy: int)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KUl9j9RWkavMUiWNoTW2-25">
           <mxGeometry y="86" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KUl9j9RWkavMUiWNoTW2-83" value="&lt;div&gt;+ calculateMaxArmyNumber()&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KUl9j9RWkavMUiWNoTW2-25">
+          <mxGeometry y="112" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KUl9j9RWkavMUiWNoTW2-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openThin;endFill=0;startSize=6;endSize=12;" edge="1" parent="1" source="KUl9j9RWkavMUiWNoTW2-20">
           <mxGeometry relative="1" as="geometry">
